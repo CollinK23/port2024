@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-black-gradient-2 {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(
+    153.47deg,
+    rgba(255, 255, 255, 0) -341.94%,
+    #14101d 95.11%
+  );
+}
+
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+
+.box-shadow {
+  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+.sidebar {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+}
+
+.blue__gradient {
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
+
+.white__gradient {
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
+}
+
+.glow0 {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  right: 0%;
+  top: 15%;
+  z-index: 5;
+  overflow: hidden;
+  background: linear-gradient(132.09deg, #25e6ff 36.18%, #87f1ff 69.95%);
+  filter: blur(5vw);
+  opacity: 0.3;
+  animation-name: circular-animation;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 500px;
+}
+
+.glow1 {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  right: 0%;
+  top: 15%;
+  z-index: 5;
+  overflow: hidden;
+  background: linear-gradient(132.09deg, #25e6ff 36.18%, #5fc2cf 69.95%);
+  filter: blur(5vw);
+  opacity: 0.5;
+  animation-name: circular-animation;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 500px;
+}
+
+.glow2 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  right: 0%;
+  top: 17%;
+  overflow: hidden;
+  background: linear-gradient(132.09deg, #361ea7 36.18%, #361ea7 69.95%);
+  filter: blur(10vw);
+  opacity: 0.4;
+  animation-name: circular-animation2;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 500px;
+}
+
+.glow3 {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  right: 0%;
+  top: 20%;
+  overflow: hidden;
+  background: linear-gradient(132.09deg, #552fff 36.18%, #5731ff 69.95%);
+  filter: blur(5vw);
+  opacity: 0.8;
+  animation-name: circular-animation3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 500px;
+}
+
+@keyframes circular-animation {
+  0% {
+    transform: rotate(0deg) translateX(50px) rotate(0deg);
+    opacity: 0.2;
+  }
+
+  50% {
+    transform: rotate(-180deg) translateX(50px) rotate(180deg);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: rotate(-360deg) translateX(50px) rotate(360deg);
+    opacity: 0.2;
+  }
+}
+
+@keyframes circular-animation2 {
+  0% {
+    transform: rotate(0deg) translateX(100px) rotate(0deg);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: rotate(-180deg) translateX(100px) rotate(180deg);
+    opacity: 0.3;
+  }
+
+  100% {
+    transform: rotate(-360deg) translateX(100px) rotate(360deg);
+    opacity: 0.6;
+  }
+}
+@keyframes circular-animation3 {
+  0% {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: rotate(-180deg) translateX(150px) rotate(180deg);
+    opacity: 0.1;
+  }
+
+  100% {
+    transform: rotate(-360deg) translateX(150px) rotate(360deg);
+    opacity: 0.3;
+  }
+}
+
+.grid__bg {
+  background-image: radial-gradient(circle at center, #151823ed 0%, #151823 60%),
+    url(./components/grid.svg);
+}
+
+.pb__gradient {
+  background: linear-gradient(0deg, #6873f5 0%, #9eaefd 100%);
+  transition: 0.3s ease-in-out;
+}
+
+.pb__gradient:hover {
+  background: linear-gradient(0deg, #4b54b1 0%, #8895d8 100%);
+  transition: 0.3s ease-in-out;
+}
+
+.p__gradient {
+  background: linear-gradient(0deg, #6873f5 0%, #9eaefd00 100%);
+}
+
+.black__gradient {
+  background: linear-gradient(-45deg, #13162062 0%, #15182362 100%);
+}
+
+.shadow {
+  box-shadow: 0px 20px 15px #0000004a;
+}
+
+.purple__gradient {
+  background: linear-gradient(180deg, #552fff00 0%, #552fffba 100%);
+  filter: blur(123px);
+}
+
+.teal__gradient {
+  background: linear-gradient(180deg, #25e6ff00 0%, #25e6ff77 100%);
+  filter: blur(67px);
+}
+
+.steel__gradient {
+  background: linear-gradient(180deg, #2b2d3600 0%, #9eaefd77 100%);
+  filter: blur(67px);
+}
+
+.blur-overlay {
+  backdrop-filter: blur(10px);
+}
