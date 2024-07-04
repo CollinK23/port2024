@@ -20,6 +20,10 @@
   overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -295,7 +299,7 @@
 
 .teal__gradient {
   background: linear-gradient(180deg, #25e6ff00 0%, #25e6ff77 100%);
-  filter: blur(67px);
+  filter: blur(123px);
 }
 
 .steel__gradient {

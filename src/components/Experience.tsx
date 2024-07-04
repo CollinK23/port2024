@@ -32,7 +32,7 @@ const experiences: TExperience[] = [
 
 const Experience = () => {
   return (
-    <div className="pb-32 max-w-[1100px] flex justify-center flex-col mx-auto sm:px-0 px-8">
+    <div className="pb-32 max-w-[1100px] flex justify-center flex-col mx-auto px-8">
       <div className="font-medium text-left text-teal mb-[50px] text-[18px]">
         EXPERIENCE
       </div>

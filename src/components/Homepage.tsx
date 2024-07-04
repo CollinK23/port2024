@@ -108,8 +108,8 @@ const Homepage = () => {
       <div className="absolute grid__bg min-h-screen w-full top-0 z-5"></div>
       <div className="z-0">
         <Glow />
-        <div className="flex sm:hidden absolute z-[1] w-[30%] h-[30%] -left-[20%] top-[15%] rounded-full overflow-hidden teal__gradient" />
-        <div className="flex sm:hidden absolute z-[0] w-[60%] h-[60%] -left-[52%] top-[15%] rounded-full overflow-hidden purple__gradient" />
+        {/* <div className="flex sm:hidden absolute z-[1] w-[30%] h-[30%] -left-[20%] top-[15%] rounded-full overflow-hidden teal__gradient blur-bg" />
+        <div className="flex sm:hidden absolute z-[0] w-[60%] h-[60%] -left-[52%] top-[15%] rounded-full overflow-hidden purple__gradient blur-bg" /> */}
       </div>
     </div>
   );

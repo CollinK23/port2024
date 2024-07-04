@@ -10,10 +10,10 @@ const ProjectCard = ({
 }: TProject) => {
   return (
     <div
-      className="w-[356px] black__gradient rounded-lg border border-steel shadow pb-4 cursor-pointer hover:scale-[101%] ease-in-out duration-500"
+      className="w-[326px] black__gradient rounded-lg border border-steel shadow pb-4 hover:scale-[101%] ease-in-out duration-500"
       data-aos="fade-in"
     >
-      <div className="w-full h-[200px] relative overflow-hidden">
+      <div className="w-full h-[200px] relative overflow-hidden cursor-pointer">
         <div className="absolute inset-0 z-0">
           <a
             href={web ? web : github}

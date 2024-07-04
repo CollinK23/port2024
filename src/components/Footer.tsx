@@ -5,7 +5,7 @@ const Footer = () => {
         <img src="/constants/ckwhite.png" className="w-[50px]" />
         <p>© {new Date().getFullYear()} - Collin Kimball</p>
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <nav className="grid-flow-col gap-4 sm:place-self-center sm:justify-self-end">
         <a href="mailto:kimballcollin@gmail.com">
           <svg
             xmlns="http://www.w3.org/2000/svg"

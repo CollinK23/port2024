@@ -4,7 +4,7 @@ import SecondaryButton from "./SecondaryButton";
 const Hero = () => {
   return (
     <div>
-      <div className="hero min-h-screen">
+      <div className="hero min-h-screen mt-16">
         <div className="hero-content text-center">
           <div>
             <h1 className="text-[6em] font-medium text-white">

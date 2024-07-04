@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="py-32 max-w-[1100px] flex justify-center flex-col mx-auto text-[16px] sm:px-0 px-8"
+      className="py-32 max-w-[1100px] flex justify-center flex-col mx-auto text-[16px] px-8"
       data-aos="fade-in"
     >
       <div className="font-medium text-left text-white font-semibold mb-[50px] text-[48px]">
